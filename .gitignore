@@ -1,0 +1,26 @@
+# Virtual Environments
+venv/
+env/
+.venv/
+.conda/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (Crucial: Never commit Kaggle time-series datasets to GitHub!)
+*.csv
+*.parquet
+*.db
+data/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Secrets & Environment Variables
+.env
